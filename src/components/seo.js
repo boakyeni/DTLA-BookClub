@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup apps landing page',
-  author = 'RedQ, Inc',
+  description = 'The bookclub for Downtown Los Angeles creatives',
+  author = 'thedtlabookclub',
   meta,
-  title = 'startup landing title',
+  title = 'The DTLA BookClub',
 }) {
   const metaData = [
     {
@@ -26,7 +26,7 @@ export default function SEO({
     },
     {
       name: `twitter:card`,
-      content: `summary`,
+      content: `Creatives Sharpening the mind`,
     },
     {
       name: `twitter:creator`,

@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "dtlabookclub",
     "public": "out",
     "ignore": [
       "firebase.json",

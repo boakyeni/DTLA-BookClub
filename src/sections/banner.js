@@ -8,7 +8,7 @@ import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
-
+import Script from 'next/script';
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
@@ -40,7 +40,9 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
+ 
   return (
+
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
@@ -89,6 +91,7 @@ export default function Banner() {
         </Box>
       </Container>
     </section>
+
   );
 }
 

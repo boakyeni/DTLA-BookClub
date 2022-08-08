@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "<your_project_name>"
-  }
+    "default": "dtlabookclub-8aa7c",
+    "dtlabookclub": "dtlabookclub-8aa7c"
+  },
+  "targets": {}
 }
