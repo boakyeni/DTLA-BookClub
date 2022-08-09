@@ -12,6 +12,7 @@ import Script from 'next/script';
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
+import WelcomeScreen from 'components/background';
 
 const data = [
   {
@@ -42,17 +43,15 @@ export default function Banner() {
   };
  
   return (
-
+    <WelcomeScreen>
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+            Creatives Sharpening the Mind
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            DTLABC is a collective of creatives aiming to master our experience on this globe
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
@@ -87,25 +86,25 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          {/*<Image src={BannerThumb} alt="banner" />*/}
         </Box>
       </Container>
     </section>
-
+</WelcomeScreen>
   );
 }
 
 const styles = {
   banner: {
     overflow: ['hidden', 'initial', null, 'hidden'],
-    backgroundImage: `url(${BannerBG})`,
+    /*backgroundImage: `url(${BannerBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'top left',
     backgroundSize: 'cover',
-    borderBottomRightRadius: [100, 150, null, null, null, 250],
+    borderBottomRightRadius: [100, 150, null, null, null, 250],*/
     pt: ['150px', null, null, null, null, null, '140px', '130px'],
     pb: ['100px', null, null, '110px', null, 10, '150px'],
-    backgroundColor: 'primary',
+    /*backgroundColor: 'primary',*/
     container: {
       display: 'flex',
     },

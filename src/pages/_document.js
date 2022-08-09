@@ -11,6 +11,7 @@ class CustomDocument extends Document {
       <Html lang="en-US">
         <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
+        {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script> */}
         </Head>
           
         <body>
